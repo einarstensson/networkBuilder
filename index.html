@@ -1,0 +1,29 @@
+<head>
+  <script src="//d3js.org/d3.v3.min.js"></script>
+  <script src="../js/graphBuilder.js" type="text/javascript"></script>
+  <script src="../js/app.js" type="text/javascript"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/app.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>Network Builder</h1>
+      <h3>Add New Node</h3>
+      <h2><input id="friendName" type="text" placeholder="Node Name"></input><span id="createNewFriend"> +</span></h2>
+      <div id="friendCheckboxes">
+        <span>
+          <input type="checkbox" name="friendName" id="0" checked>
+          <label for="0">You</label>
+        </span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="graphContainer"></div>
+    </div>
+  </div>
+</body>

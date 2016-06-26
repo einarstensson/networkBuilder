@@ -1,0 +1,38 @@
+body {
+  background: #1c242b;
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+input{
+  color: black;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+p, span, dl {
+  font-family: Arial;
+  color:white;
+}
+
+span{
+  margin-right: 2%;
+}
+
+.node {
+  stroke: #1c242b;
+  stroke-width: 0px;
+}
+.node:hover {
+  stroke: #f9e03d;
+  stroke-width: 2px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: 1;
+}
